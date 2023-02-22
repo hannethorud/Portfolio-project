@@ -1,0 +1,55 @@
+@font-face {
+  font-family: BrownSugar;
+  src: url(fonts/BrownSugar);
+}
+
+:root {
+  --primary-color: #1a1818;
+  --background-color: #ece7e1;
+}
+
+h1 {
+  font-family: BrownSugar;
+  font-size: 13px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+p {
+  font-weight: normal;
+}
+
+.section-one {
+  background: var(--background-color);
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.section-two {
+  background: white;
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.section-one h1 {
+  font-size: 120px;
+  margin: 0;
+}
+
+.section-one h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.contact-button {
+  background: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 17px;
+  padding: 15px 30px;
+}
