@@ -99,6 +99,14 @@ p {
   width: 400px;
 }
 
+.aboutme {
+  padding: 0 200px 0 0;
+}
+
+.aboutme-image {
+  width: 300px;
+}
+
 @media (max-width: 900px) {
   .section-one h1 {
     font-size: 80px;
