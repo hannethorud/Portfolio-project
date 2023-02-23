@@ -99,12 +99,9 @@ p {
   width: 400px;
 }
 
-.aboutme {
-  padding: 0 200px 0 0;
-}
-
 .aboutme-image {
   width: 300px;
+  border-radius: 70px;
 }
 
 @media (max-width: 900px) {
