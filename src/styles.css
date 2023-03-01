@@ -26,6 +26,24 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
 .section-one {
   background: var(--background-color);
   text-align: center;
